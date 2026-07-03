@@ -9,6 +9,8 @@ params:
   lumaEmbedUrl: "https://luma.com/embed/calendar/cal-QQdHeKRE8PWPxfw/events"
   lumaCalendarUrl: "https://luma.com/founders-hub"
   discordInviteUrl: "https://discord.gg/aYZFh6k37w"
+  scotlandisEventsUrl: "https://www.scotlandis.com/events/"
+  bayesEventsUrl: "https://www.hub.bayes.ed.ac.uk/events"
 markup:
   goldmark:
     renderer:
