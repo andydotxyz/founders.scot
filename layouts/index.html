@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode | default "en-gb" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.Params.description }}">
+    <meta property="og:title" content="{{ site.Title }}">
+    <meta property="og:description" content="{{ site.Params.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.BaseURL }}">
+    {{ $logo := resources.Get "images/founders-hub-logo.jpg" }}
+    {{ $favicon := $logo.Fill "96x96 Center jpg q90" }}
+    <link rel="icon" href="{{ $favicon.RelPermalink }}">
+    {{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    <title>{{ site.Title }}</title>
+  </head>
+  <body>
+    {{ $hero := resources.Get "images/founders-hub-edinburgh-meetup.png" }}
+    {{ $heroLarge := $hero.Fill "2200x1240 Center webp q82" }}
+    {{ $heroSmall := $hero.Fill "1100x1320 Center webp q82" }}
+    {{ $headerLogo := $logo.Fill "112x112 Center webp q90" }}
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Founders Hub home">
+        <img class="brand-logo" src="{{ $headerLogo.RelPermalink }}" alt="" width="56" height="56">
+        <span>Founders Hub</span>
+      </a>
+      <nav class="nav-links" aria-label="Site sections">
+        <a href="#community">Community</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#discord">Discord</a>
+        <a href="#events">Events</a>
+        <a href="#calendar">Calendar</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <picture>
+          <source media="(max-width: 720px)" srcset="{{ $heroSmall.RelPermalink }}">
+          <img src="{{ $heroLarge.RelPermalink }}" alt="Founders and technology leaders meeting over coffee in a bright Edinburgh innovation space">
+        </picture>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Edinburgh founders. Scottish tech connections.</p>
+          <h1 id="hero-title">Build better companies in better company.</h1>
+          <p class="hero-copy">Founders Hub is a Friday morning community for startup founders and technology leaders who want sharper business support, useful introductions, and a stronger route into Scotland's technology ecosystem.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#calendar">See upcoming meetups</a>
+            <a class="button secondary" href="#benefits">Explore member access</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro band" id="community" aria-labelledby="community-title">
+        <div class="section-kicker">Why Join</div>
+        <div class="intro-grid">
+          <div>
+            <h2 id="community-title">A trusted room for the conversations that move companies forward.</h2>
+          </div>
+          <div class="intro-copy">
+            <p>Meet founders, operators, investors, ecosystem partners, and company representatives who understand the reality of growing a technology business in Scotland.</p>
+            <p>Each gathering is designed to turn a Friday morning into momentum: practical support, peer perspective, warm introductions, and the occasional question that unlocks the next move.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rhythm band" aria-labelledby="rhythm-title">
+        <div class="rhythm-panel">
+          <p class="section-kicker">Meeting Rhythm</p>
+          <h2 id="rhythm-title">In person in Edinburgh on the 1st and 3rd Friday morning of each month.</h2>
+          <p>Start the day with people who can open doors, compare notes, and help you navigate the next stage of your business.</p>
+        </div>
+        <div class="stats" aria-label="Founders Hub highlights">
+          <div>
+            <strong>2x</strong>
+            <span>monthly Edinburgh meetups</span>
+          </div>
+          <div>
+            <strong>4</strong>
+            <span>member access routes</span>
+          </div>
+          <div>
+            <strong>1</strong>
+            <span>connected Scottish tech ecosystem</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits band" id="benefits" aria-labelledby="benefits-title">
+        <div class="section-heading">
+          <p class="section-kicker">Member Access</p>
+          <h2 id="benefits-title">Support that reaches beyond the room.</h2>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit-card accent-teal">
+            <span>01</span>
+            <h3>ScotlandIS Future Ready platform</h3>
+            <p>Tap into structured support and insight from Scotland's digital technologies trade body.</p>
+          </article>
+          <article class="benefit-card accent-gold">
+            <span>02</span>
+            <h3>Bayes lounge space</h3>
+            <p>Use a welcoming university innovation setting for connection, focus, and founder conversations.</p>
+          </article>
+          <article class="benefit-card accent-coral">
+            <span>03</span>
+            <h3>Startup Race readiness programme</h3>
+            <p>Build business readiness through a practical programme designed to help startups move with confidence.</p>
+          </article>
+          <article class="benefit-card accent-blue">
+            <span>04</span>
+            <h3>Founders Hub Discord</h3>
+            <p>Keep the conversation moving between meetups with peer questions, useful links, and warm ecosystem introductions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="discord band" id="discord" aria-labelledby="discord-title">
+        <div class="discord-copy">
+          <p class="section-kicker">Online Community</p>
+          <h2 id="discord-title">Stay connected between Friday mornings.</h2>
+          <p>The Founders Hub Discord gives members a place to ask quick questions, share opportunities, keep track of useful resources, and turn one coffee conversation into the next introduction.</p>
+        </div>
+        <div class="discord-panel">
+          <span class="discord-mark">#</span>
+          <h3>Join the Founders Hub Discord</h3>
+          <p>For members who want the room to keep working after the morning session ends.</p>
+          {{ with site.Params.discordInviteUrl }}
+            <a class="button primary" href="{{ . }}">Join Discord</a>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="topics band" id="events" aria-labelledby="events-title">
+        <div class="section-heading">
+          <p class="section-kicker">Events</p>
+          <h2 id="events-title">Business support topics for founders who are actively building.</h2>
+        </div>
+        <div class="topic-list" aria-label="Example event topics">
+          <span>Commercial strategy</span>
+          <span>Hiring and leadership</span>
+          <span>Funding readiness</span>
+          <span>Sales pipelines</span>
+          <span>Product-market learning</span>
+          <span>Scotland ecosystem introductions</span>
+        </div>
+      </section>
+
+      <section class="calendar-section band" id="calendar" aria-labelledby="calendar-title">
+        <div class="section-heading">
+          <p class="section-kicker">Calendar</p>
+          <h2 id="calendar-title">Join the next Founders Hub morning.</h2>
+        </div>
+        <div class="calendar-layout">
+          <div class="calendar-copy">
+            <p>Founders Hub meets twice a month. Upcoming sessions will appear here through the Luma calendar.</p>
+            {{ with site.Params.lumaCalendarUrl }}
+              <a class="text-link" href="{{ . }}">Open the Luma calendar</a>
+            {{ end }}
+          </div>
+          <div class="calendar-frame" aria-label="Luma calendar">
+            {{ with site.Params.lumaEmbedUrl }}
+              <iframe src="{{ . }}" title="Founders Hub Luma calendar" loading="lazy"></iframe>
+            {{ else }}
+              <div class="calendar-placeholder">
+                <strong>Upcoming events</strong>
+                <span>The Founders Hub calendar will appear here as soon as the next sessions are published.</span>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors band" aria-labelledby="sponsors-title">
+        <p class="section-kicker">Supported By</p>
+        <h2 id="sponsors-title">Sponsored by ScotlandIS and the Bayes Centre, University of Edinburgh.</h2>
+        <div class="sponsor-row" aria-label="Sponsors">
+          <span>ScotlandIS</span>
+          <span>Bayes Centre</span>
+          <span>University of Edinburgh</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Founders Hub</span>
+      <a href="https://founders.scot/">founders.scot</a>
+    </footer>
+  </body>
+</html>
