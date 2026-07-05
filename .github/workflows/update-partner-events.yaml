@@ -1,0 +1,52 @@
+name: Update partner events
+on:
+  schedule:
+    # 03:15 UTC every day (nightly)
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: update-partner-events
+  cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GO_VERSION: 1.26.1
+      TZ: Europe/London
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: false
+      - name: Update partner events data
+        run: |
+          go run scripts/update-partner-events.go
+      - name: Commit and push if changed
+        id: commit
+        run: |
+          if [[ -z "$(git status --porcelain data/)" ]]; then
+            echo "No changes to partner events data."
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Update partner events data"
+          git push
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
+      - name: Trigger site build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run hugo.yaml --ref "${GITHUB_REF_NAME}"
