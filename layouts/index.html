@@ -191,21 +191,19 @@
               {{ end }}
             </div>
             <div class="partner-list" aria-label="ScotlandIS event highlights">
-              <a href="https://www.scotlandis.com/blog/events/mission-possible-scotland-microsoft-copilot-for-the-scottish-charity-sector-2/">
-                <time datetime="2026-07-08">8 Jul 2026</time>
-                <strong>Mission Possible Scotland: Microsoft Copilot for the Scottish charity sector</strong>
-                <span>Microsoft - Waverley Gate</span>
-              </a>
-              <a href="https://www.scotlandis.com/blog/events/lupovis-turns-five-insights-platform-launch-party/">
-                <time datetime="2026-07-08">8 Jul 2026</time>
-                <strong>Lupovis Turns Five: Insights Platform Launch Party</strong>
-                <span>58 Victoria Embankment</span>
-              </a>
-              <a href="https://www.scotlandis.com/blog/events/scotlandis-summer-netwalk-linlithgow/">
-                <time datetime="2026-07-14">14 Jul 2026</time>
-                <strong>ScotlandIS Summer Netwalk: Linlithgow</strong>
-                <span>Tesco Linlithgow</span>
-              </a>
+              {{ range site.Data.partner_events.scotlandis }}
+                <a href="{{ .url }}">
+                  <time datetime="{{ .datetime }}">{{ .date }}</time>
+                  <strong>{{ .title }}</strong>
+                  <span>{{ .detail }}</span>
+                </a>
+              {{ else }}
+                <a href="{{ site.Params.scotlandisEventsUrl }}">
+                  <time>What's on</time>
+                  <strong>Upcoming ScotlandIS events</strong>
+                  <span>Open the ScotlandIS events calendar for the latest member and industry sessions.</span>
+                </a>
+              {{ end }}
             </div>
           </article>
           <article class="partner-card partner-card-source">
@@ -216,13 +214,29 @@
               {{ end }}
             </div>
             <div class="partner-list" aria-label="Bayes Centre event highlights">
-              <a href="https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS">
-                <time datetime="2026-07-06">6 Jul 2026</time>
-                <strong>Academic Cohort Lead Event - Pair Programming</strong>
-                <span>13:00-14:00. Event for current students on Bayes programmes on the subject of Pair Programming.</span>
+              {{ range site.Data.partner_events.bayes }}
+                <a href="{{ .url }}">
+                  <time datetime="{{ .datetime }}">{{ .date }}</time>
+                  <strong>{{ .title }}</strong>
+                  <span>{{ .detail }}</span>
+                </a>
+              {{ else }}
+                <a href="https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS">
+                  <time>What's on</time>
+                  <strong>Upcoming Bayes Centre events</strong>
+                  <span>Community gatherings, forums, workshops, and networking opportunities.</span>
+                </a>
+              {{ end }}
+              <a href="https://www.hub.bayes.ed.ac.uk/events#Bayes-Centre-Events">
+                <time>Our events</time>
+                <strong>Community, forum, refresh, and partner events</strong>
+                <span>Regular formats that connect researchers, students, businesses, and residents.</span>
               </a>
             </div>
           </article>
+          {{ with site.Data.partner_events.updatedAt }}
+            <div class="source-note">Partner event feeds updated {{ . }}.</div>
+          {{ end }}
         </div>
       </section>
 

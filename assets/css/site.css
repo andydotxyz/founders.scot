@@ -407,7 +407,7 @@ h3 {
 
 .partner-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(300px, 0.68fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 18px;
 }
 
@@ -482,8 +482,12 @@ h3 {
   line-height: 1.6;
 }
 
-.partner-card-source {
+.partner-card-featured {
   border-top: 8px solid var(--gold);
+}
+
+.partner-card-source {
+  border-top: 8px solid var(--blue);
 }
 
 .source-note {

@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2026-07-05",
+  "scotlandis": [
+    {
+      "title": "Mission Possible Scotland: Microsoft Copilot for the Scottish charity sector",
+      "url": "https://www.scotlandis.com/blog/events/mission-possible-scotland-microsoft-copilot-for-the-scottish-charity-sector-2/",
+      "date": "8 Jul 2026",
+      "datetime": "2026-07-08",
+      "detail": "Microsoft - Waverley Gate"
+    },
+    {
+      "title": "Lupovis Turns Five: Insights Platform Launch Party",
+      "url": "https://www.scotlandis.com/blog/events/lupovis-turns-five-insights-platform-launch-party/",
+      "date": "8 Jul 2026",
+      "datetime": "2026-07-08",
+      "detail": "58 Victoria Embankment"
+    },
+    {
+      "title": "ScotlandIS Summer Netwalk: Linlithgow",
+      "url": "https://www.scotlandis.com/blog/events/scotlandis-summer-netwalk-linlithgow/",
+      "date": "14 Jul 2026",
+      "datetime": "2026-07-14",
+      "detail": "Tesco Linlithgow"
+    }
+  ],
+  "bayes": [
+    {
+      "title": "Academic Cohort Lead Event - Pair Programming",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "6 Jul 2026",
+      "datetime": "2026-07-06",
+      "detail": "Event for current students on Bayes programmes on the subject of Pair Programming"
+    }
+  ]
+}
