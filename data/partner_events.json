@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06",
+  "updatedAt": "2026-07-07",
   "scotlandis": [
     {
       "title": "Mission Possible Scotland: Microsoft Copilot for the Scottish charity sector",
@@ -23,13 +23,5 @@
       "detail": "Tesco Linlithgow"
     }
   ],
-  "bayes": [
-    {
-      "title": "Academic Cohort Lead Event - Pair Programming",
-      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "6 Jul 2026",
-      "datetime": "2026-07-06",
-      "detail": "Event for current students on Bayes programmes on the subject of Pair Programming"
-    }
-  ]
+  "bayes": []
 }
