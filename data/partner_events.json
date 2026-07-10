@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-07-10",
   "scotlandis": [
     {
       "title": "ScotlandIS Summer Netwalk: Linlithgow",
@@ -7,6 +7,13 @@
       "date": "14 Jul 2026",
       "datetime": "2026-07-14",
       "detail": "Tesco Linlithgow"
+    },
+    {
+      "title": "DBT Scotland \u0026 India Business Drinks Reception",
+      "url": "https://www.scotlandis.com/blog/events/dbt-scotland-india-business-drinks-reception/",
+      "date": "30 Jul 2026",
+      "datetime": "2026-07-30",
+      "detail": "Scottish Renewables"
     }
   ],
   "bayes": []
