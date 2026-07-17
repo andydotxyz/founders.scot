@@ -5,7 +5,7 @@ disableKinds:
   - taxonomy
   - term
 params:
-  description: An in-person Edinburgh community connecting founders into the Scottish technology ecosystem.
+  description: An in-person community connecting founders with each other and the Scottish technology ecosystem.
   lumaEmbedUrl: "https://luma.com/embed/calendar/cal-QQdHeKRE8PWPxfw/events"
   lumaCalendarUrl: "https://luma.com/founders-hub"
   discordInviteUrl: "https://discord.gg/aYZFh6k37w"
