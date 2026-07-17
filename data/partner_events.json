@@ -7,6 +7,20 @@
       "date": "30 Jul 2026",
       "datetime": "2026-07-30",
       "detail": "Scottish Renewables"
+    },
+    {
+      "title": "Scottish OT Cyber Summit",
+      "url": "https://www.scotlandis.com/blog/events/scottish-ot-cyber-summit/",
+      "date": "12 Aug 2026",
+      "datetime": "2026-08-12",
+      "detail": "Ardoe House Hotel"
+    },
+    {
+      "title": "ScotlandIS Member Outing: Arthur's Seat",
+      "url": "https://www.scotlandis.com/blog/events/scotlandis-member-outing-arthurs-seat/",
+      "date": "18 Aug 2026",
+      "datetime": "2026-08-18",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": []
