@@ -10,6 +10,8 @@ params:
   lumaCalendarUrl: "https://luma.com/founders-hub"
   discordInviteUrl: "https://discord.gg/aYZFh6k37w"
   scotlandisEventsUrl: "https://www.scotlandis.com/events/"
+  scotsoftUrl: "https://www.scotlandis.com/scotsoft-2026/"
+  scotsoftTicketsUrl: "https://www.scotlandis.com/scotsoft-2026/tickets/"
   bayesEventsUrl: "https://www.hub.bayes.ed.ac.uk/events"
 markup:
   goldmark:

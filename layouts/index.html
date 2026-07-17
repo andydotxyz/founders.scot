@@ -32,6 +32,7 @@
         <a href="#discord">Discord</a>
         <a href="#events">Events</a>
         <a href="#calendar">Calendar</a>
+        <a href="#scotsoft">ScotSoft</a>
         <a href="#partner-events">Partners</a>
       </nav>
     </header>
@@ -97,8 +98,8 @@
         <div class="benefit-grid">
           <article class="benefit-card accent-teal">
             <span>01</span>
-            <h3>ScotlandIS Future Ready platform</h3>
-            <p>Tap into structured support and insight from Scotland's digital technologies trade body.</p>
+            <h3>A free year of ScotlandIS membership</h3>
+            <p>Members get a full year with Scotland's digital technologies trade body at no cost: the Future Ready platform, structured support and insight, and member rates on events like ScotSoft.</p>
           </article>
           <article class="benefit-card accent-gold">
             <span>02</span>
@@ -171,6 +172,38 @@
               </div>
             {{ end }}
           </div>
+        </div>
+      </section>
+
+      <section class="spotlight band" id="scotsoft" aria-labelledby="scotsoft-title">
+        <div class="spotlight-copy">
+          <p class="section-kicker">Partner Spotlight</p>
+          <h2 id="scotsoft-title">ScotSoft 2026, at the member price.</h2>
+          <p>ScotlandIS runs ScotSoft each autumn: a full day for software professionals with keynote speakers, more than 30 breakout sessions, up to six hours of CPD, and the Young Software Engineer Awards dinner to close the evening.</p>
+          <p>Because Founders Hub membership includes a free year of ScotlandIS membership, you book at the member rate rather than the standard one.</p>
+        </div>
+        <div class="spotlight-panel">
+          <dl class="spotlight-facts">
+            <div>
+              <dt>When</dt>
+              <dd><time datetime="2026-09-24">Thursday 24 September 2026</time></dd>
+            </div>
+            <div>
+              <dt>Where</dt>
+              <dd>Edinburgh</dd>
+            </div>
+            <div>
+              <dt>Conference ticket</dt>
+              <dd>£125 + VAT for members <span>£180 + VAT non-member</span></dd>
+            </div>
+          </dl>
+          {{ with site.Params.scotsoftTicketsUrl }}
+            <a class="button accent" href="{{ . }}">Book ScotSoft tickets</a>
+          {{ end }}
+          <p class="spotlight-note">Earlybird rates, £99 + VAT for members, run until 31 July 2026.</p>
+          {{ with site.Params.scotsoftUrl }}
+            <a class="text-link" href="{{ . }}">See the full ScotSoft programme</a>
+          {{ end }}
         </div>
       </section>
 

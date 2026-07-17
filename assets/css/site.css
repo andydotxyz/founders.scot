@@ -191,6 +191,13 @@ h1 {
   background: rgba(255, 255, 255, 0.12);
 }
 
+/* The mint primary is built for the dark hero and Discord panels; on the light
+   spotlight card it needs a solid fill to hold its weight as a CTA. */
+.button.accent {
+  color: white;
+  background: var(--teal);
+}
+
 .band {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
@@ -385,6 +392,80 @@ h3 {
   color: #1b355e;
   background: #eef4ff;
   font-weight: 800;
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.72fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.spotlight-copy p:not(.section-kicker) {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.spotlight-panel {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-top: 8px solid var(--gold);
+  border-radius: 8px;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.spotlight-facts {
+  display: grid;
+  gap: 16px;
+  margin: 0 0 26px;
+}
+
+.spotlight-facts > div {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.spotlight-facts > div:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.spotlight-facts dt {
+  color: var(--teal);
+  font-size: 0.82rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.spotlight-facts dd {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.36;
+}
+
+.spotlight-facts dd span {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.spotlight-panel .button {
+  width: 100%;
+}
+
+.spotlight-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 .partner-events {
@@ -639,6 +720,7 @@ code {
   .rhythm,
   .benefit-grid,
   .discord,
+  .spotlight,
   .partner-events-head,
   .partner-grid {
     grid-template-columns: 1fr;
