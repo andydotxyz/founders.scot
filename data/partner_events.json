@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "scotlandis": [
-    {
-      "title": "Home Office Digital: How to write a strong application",
-      "url": "https://www.scotlandis.com/blog/events/home-office-digital-how-to-write-a-strong-application/",
-      "date": "8 Sep 2026",
-      "datetime": "2026-09-08",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "Foundation Apprentice Employer Consultation Workshop #3",
       "url": "https://www.scotlandis.com/blog/events/foundation-apprentice-employer-consultation-workshop-3/",
@@ -21,6 +14,13 @@
       "date": "10 Sep 2026",
       "datetime": "2026-09-10",
       "detail": "The Bayes Centre, University of Edinburgh"
+    },
+    {
+      "title": "Understanding Home Office Digital interviews",
+      "url": "https://www.scotlandis.com/blog/events/understanding-home-office-digital-interviews/",
+      "date": "10 Sep 2026",
+      "datetime": "2026-09-10",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
