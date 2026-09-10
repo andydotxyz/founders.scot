@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "scotlandis": [
-    {
-      "title": "Foundation Apprentice Employer Consultation Workshop #3",
-      "url": "https://www.scotlandis.com/blog/events/foundation-apprentice-employer-consultation-workshop-3/",
-      "date": "9 Sep 2026",
-      "datetime": "2026-09-09",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "AIMday: Data, Digital and AI",
       "url": "https://www.scotlandis.com/blog/events/aimday-data-digital-and-ai/",
@@ -21,6 +14,13 @@
       "date": "10 Sep 2026",
       "datetime": "2026-09-10",
       "detail": "ScotlandIS event"
+    },
+    {
+      "title": "OEUK Aberdeen Breakfast Briefing - Economic Report 2026",
+      "url": "https://www.scotlandis.com/blog/events/oeuk-aberdeen-breakfast-briefing-economic-report-2026/",
+      "date": "15 Sep 2026",
+      "datetime": "2026-09-15",
+      "detail": "P \u0026 J Live"
     }
   ],
   "bayes": [
