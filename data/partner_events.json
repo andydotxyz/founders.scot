@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-11",
   "scotlandis": [
-    {
-      "title": "AIMday: Data, Digital and AI",
-      "url": "https://www.scotlandis.com/blog/events/aimday-data-digital-and-ai/",
-      "date": "10 Sep 2026",
-      "datetime": "2026-09-10",
-      "detail": "The Bayes Centre, University of Edinburgh"
-    },
-    {
-      "title": "Understanding Home Office Digital interviews",
-      "url": "https://www.scotlandis.com/blog/events/understanding-home-office-digital-interviews/",
-      "date": "10 Sep 2026",
-      "datetime": "2026-09-10",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "OEUK Aberdeen Breakfast Briefing - Economic Report 2026",
       "url": "https://www.scotlandis.com/blog/events/oeuk-aberdeen-breakfast-briefing-economic-report-2026/",
       "date": "15 Sep 2026",
       "datetime": "2026-09-15",
       "detail": "P \u0026 J Live"
+    },
+    {
+      "title": "The Inform Prize - Glasgow",
+      "url": "https://www.scotlandis.com/blog/events/the-inform-prize-glasgow/",
+      "date": "16 Sep 2026",
+      "datetime": "2026-09-16",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "Scot-Secure West 2026",
+      "url": "https://www.scotlandis.com/blog/events/scot-secure-west-2026/",
+      "date": "17 Sep 2026",
+      "datetime": "2026-09-17",
+      "detail": "Hilton Glasgow"
     }
   ],
   "bayes": [
