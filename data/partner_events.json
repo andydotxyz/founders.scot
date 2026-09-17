@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "scotlandis": [
-    {
-      "title": "The Inform Prize - Glasgow",
-      "url": "https://www.scotlandis.com/blog/events/the-inform-prize-glasgow/",
-      "date": "16 Sep 2026",
-      "datetime": "2026-09-16",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "Scot-Secure West 2026",
       "url": "https://www.scotlandis.com/blog/events/scot-secure-west-2026/",
@@ -21,16 +14,16 @@
       "date": "22 Sep 2026",
       "datetime": "2026-09-22",
       "detail": "ScotlandIS event"
+    },
+    {
+      "title": "ScotlandIS Cyber Cluster Fireside Chat",
+      "url": "https://www.scotlandis.com/blog/events/scotlandis-cyber-cluster-fireside-chat/",
+      "date": "22 Sep 2026",
+      "datetime": "2026-09-22",
+      "detail": "Royal Scots Club"
     }
   ],
   "bayes": [
-    {
-      "title": "AI Accelerator 2026 Launch Event",
-      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "16 Sep 2026",
-      "datetime": "2026-09-16",
-      "detail": "The Bayes Centre"
-    },
     {
       "title": "Bayes Community Quiz Night",
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
@@ -43,6 +36,13 @@
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
       "date": "22 Sep 2026",
       "datetime": "2026-09-22",
+      "detail": "The Bayes Centre"
+    },
+    {
+      "title": "Doors Open Day",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "26 Sep 2026",
+      "datetime": "2026-09-26",
       "detail": "The Bayes Centre"
     }
   ]
