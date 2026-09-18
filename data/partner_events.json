@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "scotlandis": [
-    {
-      "title": "Scot-Secure West 2026",
-      "url": "https://www.scotlandis.com/blog/events/scot-secure-west-2026/",
-      "date": "17 Sep 2026",
-      "datetime": "2026-09-17",
-      "detail": "Hilton Glasgow"
-    },
     {
       "title": "TURN RISK INTO CONFIDENCE: UNDERSTAND HOW UK SANCTIONS AFFECT YOUR BUSINESS",
       "url": "https://www.scotlandis.com/blog/events/turn-risk-into-confidence-understand-how-uk-sanctions-affect-your-business/",
@@ -21,16 +14,16 @@
       "date": "22 Sep 2026",
       "datetime": "2026-09-22",
       "detail": "Royal Scots Club"
+    },
+    {
+      "title": "The Inform Prize - Aberdeen",
+      "url": "https://www.scotlandis.com/blog/events/the-inform-prize-aberdeen/",
+      "date": "23 Sep 2026",
+      "datetime": "2026-09-23",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
-    {
-      "title": "Bayes Community Quiz Night",
-      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "17 Sep 2026",
-      "datetime": "2026-09-17",
-      "detail": "The Bayes Centre"
-    },
     {
       "title": "Bayes Centre: Lunch and Learn",
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
