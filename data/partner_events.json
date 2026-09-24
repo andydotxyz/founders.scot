@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "scotlandis": [
-    {
-      "title": "The Inform Prize - Aberdeen",
-      "url": "https://www.scotlandis.com/blog/events/the-inform-prize-aberdeen/",
-      "date": "23 Sep 2026",
-      "datetime": "2026-09-23",
-      "detail": "ScotlandIS event"
-    },
-    {
-      "title": "Investment Workshop - Democratizing Venture® Summit Edinburgh",
-      "url": "https://www.scotlandis.com/blog/events/investment-workshop-democratizing-venture-summit-edinburgh/",
-      "date": "23 Sep 2026",
-      "datetime": "2026-09-23",
-      "detail": "CMS Office"
-    },
     {
       "title": "ScotSoft 2026",
       "url": "https://www.scotlandis.com/blog/events/scotsoft-2026/",
       "date": "24 Sep 2026",
       "datetime": "2026-09-24",
       "detail": "Edinburgh International Conference Centre"
+    },
+    {
+      "title": "Planning for 2027 - Sales performance, pay and technology",
+      "url": "https://www.scotlandis.com/blog/events/planning-for-2027-sales-performance-pay-and-technology/",
+      "date": "2 Oct 2026",
+      "datetime": "2026-10-02",
+      "detail": "Gleneagles Townhouse"
+    },
+    {
+      "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Aberdeen",
+      "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-aberdeen/",
+      "date": "5 Oct 2026",
+      "datetime": "2026-10-05",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
