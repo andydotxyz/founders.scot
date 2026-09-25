@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "scotlandis": [
-    {
-      "title": "ScotSoft 2026",
-      "url": "https://www.scotlandis.com/blog/events/scotsoft-2026/",
-      "date": "24 Sep 2026",
-      "datetime": "2026-09-24",
-      "detail": "Edinburgh International Conference Centre"
-    },
     {
       "title": "Planning for 2027 - Sales performance, pay and technology",
       "url": "https://www.scotlandis.com/blog/events/planning-for-2027-sales-performance-pay-and-technology/",
@@ -20,6 +13,13 @@
       "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-aberdeen/",
       "date": "5 Oct 2026",
       "datetime": "2026-10-05",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "ScotlandIS Tech Tidbits: Artificial Intelligence - Helping or Hindering?",
+      "url": "https://www.scotlandis.com/blog/events/scotlandis-tech-tidbits-artificial-intelligence-helping-or-hindering/",
+      "date": "6 Oct 2026",
+      "datetime": "2026-10-06",
       "detail": "ScotlandIS event"
     }
   ],
