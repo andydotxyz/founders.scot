@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-09-27",
   "scotlandis": [
     {
       "title": "Planning for 2027 - Sales performance, pay and technology",
@@ -23,13 +23,5 @@
       "detail": "ScotlandIS event"
     }
   ],
-  "bayes": [
-    {
-      "title": "Doors Open Day",
-      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "26 Sep 2026",
-      "datetime": "2026-09-26",
-      "detail": "The Bayes Centre"
-    }
-  ]
+  "bayes": []
 }
