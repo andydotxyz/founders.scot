@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "scotlandis": [
     {
       "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Aberdeen",
@@ -23,5 +23,13 @@
       "detail": "Edinburgh International Conference Centre"
     }
   ],
-  "bayes": []
+  "bayes": [
+    {
+      "title": "What It Takes to Get AI Into Clinical Use",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "8 Oct 2026",
+      "datetime": "2026-10-08",
+      "detail": "Bayes Theorem, Bayes Centre"
+    }
+  ]
 }
