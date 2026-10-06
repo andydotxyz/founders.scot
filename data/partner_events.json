@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "scotlandis": [
-    {
-      "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Aberdeen",
-      "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-aberdeen/",
-      "date": "5 Oct 2026",
-      "datetime": "2026-10-05",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "ScotlandIS Tech Tidbits: Artificial Intelligence - Helping or Hindering?",
       "url": "https://www.scotlandis.com/blog/events/scotlandis-tech-tidbits-artificial-intelligence-helping-or-hindering/",
@@ -21,6 +14,13 @@
       "date": "7 Oct 2026",
       "datetime": "2026-10-07",
       "detail": "Edinburgh International Conference Centre"
+    },
+    {
+      "title": "Defence Workshop: Connect with MOD \u0026 Understand About Accessing International Defence Sectors",
+      "url": "https://www.scotlandis.com/blog/events/defence-workshop-connect-with-mod-understand-about-accessing-international-defence-sectors/",
+      "date": "7 Oct 2026",
+      "datetime": "2026-10-07",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
