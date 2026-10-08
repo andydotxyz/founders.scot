@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "scotlandis": [
-    {
-      "title": "Fintech Summit 2026",
-      "url": "https://www.scotlandis.com/blog/events/fintech-summit-2026/",
-      "date": "7 Oct 2026",
-      "datetime": "2026-10-07",
-      "detail": "Edinburgh International Conference Centre"
-    },
-    {
-      "title": "Defence Workshop: Connect with MOD \u0026 Understand About Accessing International Defence Sectors",
-      "url": "https://www.scotlandis.com/blog/events/defence-workshop-connect-with-mod-understand-about-accessing-international-defence-sectors/",
-      "date": "7 Oct 2026",
-      "datetime": "2026-10-07",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "Save the Data",
       "url": "https://www.scotlandis.com/blog/events/save-the-data/",
       "date": "14 Oct 2026",
       "datetime": "2026-10-14",
       "detail": "Pinewood Studios"
+    },
+    {
+      "title": "CyberFest Community Conference",
+      "url": "https://www.scotlandis.com/blog/events/cyberfest-community-conference/",
+      "date": "19 Oct 2026",
+      "datetime": "2026-10-19",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "Data \u0026 Cyber Conference: Risk Meets Reality",
+      "url": "https://www.scotlandis.com/blog/events/data-cyber-conference-risk-meets-reality/",
+      "date": "20 Oct 2026",
+      "datetime": "2026-10-20",
+      "detail": "Everyman Edinburgh"
     }
   ],
   "bayes": [
