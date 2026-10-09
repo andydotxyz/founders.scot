@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "scotlandis": [
     {
       "title": "Save the Data",
@@ -25,11 +25,11 @@
   ],
   "bayes": [
     {
-      "title": "What It Takes to Get AI Into Clinical Use",
+      "title": "Data Quality and Statistics: Perfect together!",
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "8 Oct 2026",
-      "datetime": "2026-10-08",
-      "detail": "Bayes Theorem, Bayes Centre"
+      "date": "22 Oct 2026",
+      "datetime": "2026-10-22",
+      "detail": "The Bayes Theorem"
     }
   ]
 }
