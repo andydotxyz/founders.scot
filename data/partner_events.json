@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15",
+  "updatedAt": "2026-10-16",
   "scotlandis": [
     {
       "title": "CyberFest Community Conference",
@@ -24,6 +24,13 @@
     }
   ],
   "bayes": [
+    {
+      "title": "Building Trustworthy Simulations on Cirrus: The SEAVEA Software Hands-on Workshop",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "22 Oct 2026",
+      "datetime": "2026-10-22",
+      "detail": "Room 1.37, Bayes Centre"
+    },
     {
       "title": "Data Quality and Statistics: Perfect together!",
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
