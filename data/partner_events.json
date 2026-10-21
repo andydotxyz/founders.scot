@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "scotlandis": [
-    {
-      "title": "Data \u0026 Cyber Conference: Risk Meets Reality",
-      "url": "https://www.scotlandis.com/blog/events/data-cyber-conference-risk-meets-reality/",
-      "date": "20 Oct 2026",
-      "datetime": "2026-10-20",
-      "detail": "Everyman Edinburgh"
-    },
     {
       "title": "Public Sector Security Live",
       "url": "https://www.scotlandis.com/blog/events/public-sector-security-live/",
@@ -20,6 +13,13 @@
       "url": "https://www.scotlandis.com/blog/events/building-long-term-value-in-your-tech-business-ahead-of-exit/",
       "date": "22 Oct 2026",
       "datetime": "2026-10-22",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Glasgow",
+      "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-glasgow/",
+      "date": "26 Oct 2026",
+      "datetime": "2026-10-26",
       "detail": "ScotlandIS event"
     }
   ],
