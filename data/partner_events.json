@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-29",
   "scotlandis": [
-    {
-      "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Fife",
-      "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-fife/",
-      "date": "27 Oct 2026",
-      "datetime": "2026-10-27",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "SCOTTISH ETHNIC MINORITY TALENT SUMMIT \u0026 FESTIVAL 2026: Edinburgh",
       "url": "https://www.scotlandis.com/blog/events/scottish-ethnic-minority-talent-summit-festival-2026-edinburgh/",
@@ -21,7 +14,22 @@
       "date": "2 Nov 2026",
       "datetime": "2026-11-02",
       "detail": "Cathedral Wing University of Strathclyde"
+    },
+    {
+      "title": "Tayside TechFest 2026",
+      "url": "https://www.scotlandis.com/blog/events/tayside-techfest-2026/",
+      "date": "3 Nov 2026",
+      "datetime": "2026-11-03",
+      "detail": "cyberQuarter, Abertay University"
     }
   ],
-  "bayes": []
+  "bayes": [
+    {
+      "title": "People's Emergency Briefing",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "8 Dec 2026",
+      "datetime": "2026-12-08",
+      "detail": "Bayes Theorem"
+    }
+  ]
 }
