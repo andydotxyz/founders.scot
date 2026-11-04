@@ -1,42 +1,49 @@
 {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "scotlandis": [
-    {
-      "title": "Tayside TechFest 2026",
-      "url": "https://www.scotlandis.com/blog/events/tayside-techfest-2026/",
-      "date": "3 Nov 2026",
-      "datetime": "2026-11-03",
-      "detail": "cyberQuarter, Abertay University"
-    },
-    {
-      "title": "Tayside TechFest 2026",
-      "url": "https://www.scotlandis.com/blog/events/tayside-techfest-2026-2/",
-      "date": "3 Nov 2026",
-      "datetime": "2026-11-03",
-      "detail": "cyberQuarter, Abertay University"
-    },
     {
       "title": "Cyber Connect Edinburgh",
       "url": "https://www.scotlandis.com/blog/events/cyber-connect-edinburgh/",
       "date": "4 Nov 2026",
       "datetime": "2026-11-04",
       "detail": "Royal Scots Club"
+    },
+    {
+      "title": "Automation Done Right: Microsoft Power Platform and Copilot Agents",
+      "url": "https://www.scotlandis.com/blog/events/automation-done-right-microsoft-power-platform-and-copilot-agents/",
+      "date": "5 Nov 2026",
+      "datetime": "2026-11-05",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "UK Gov - International Trade Week 2026",
+      "url": "https://www.scotlandis.com/blog/events/uk-gov-international-trade-week-2026/",
+      "date": "9 Nov 2026",
+      "datetime": "2026-11-09",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
+    {
+      "title": "Cur air Bhog Leabhraichean Ghàidhlig",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "27 Nov 2026",
+      "datetime": "2026-11-27",
+      "detail": "The Bayes Theorem"
+    },
+    {
+      "title": "Pilot-UKAIFA Training Event - Introduction to AI Frameworks",
+      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
+      "date": "27 Nov 2026",
+      "datetime": "2026-11-27",
+      "detail": "Bayes Theorem, Bayes Centre"
+    },
     {
       "title": "The 10th David Finney Lecture",
       "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
       "date": "7 Dec 2026",
       "datetime": "2026-12-07",
       "detail": "Room 425 Anatomy Lecture Theatre - Doorway 3, Medical School, Teviot (5 mins walk from the Bayes Centre)."
-    },
-    {
-      "title": "People's Emergency Briefing",
-      "url": "https://www.hub.bayes.ed.ac.uk/events#UPCOMING-EVENTS",
-      "date": "8 Dec 2026",
-      "datetime": "2026-12-08",
-      "detail": "Bayes Theorem"
     }
   ]
 }
