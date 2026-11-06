@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "scotlandis": [
-    {
-      "title": "Automation Done Right: Microsoft Power Platform and Copilot Agents",
-      "url": "https://www.scotlandis.com/blog/events/automation-done-right-microsoft-power-platform-and-copilot-agents/",
-      "date": "5 Nov 2026",
-      "datetime": "2026-11-05",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "UK Gov - International Trade Week 2026",
       "url": "https://www.scotlandis.com/blog/events/uk-gov-international-trade-week-2026/",
@@ -20,6 +13,13 @@
       "url": "https://www.scotlandis.com/blog/events/meet-the-investors-edinburgh/",
       "date": "10 Nov 2026",
       "datetime": "2026-11-10",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "Securing and Governing the Agentic Enterprise",
+      "url": "https://www.scotlandis.com/blog/events/securing-and-governing-the-agentic-enterprise/",
+      "date": "11 Nov 2026",
+      "datetime": "2026-11-11",
       "detail": "ScotlandIS event"
     }
   ],
