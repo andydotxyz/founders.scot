@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "scotlandis": [
-    {
-      "title": "UK Gov - International Trade Week 2026",
-      "url": "https://www.scotlandis.com/blog/events/uk-gov-international-trade-week-2026/",
-      "date": "9 Nov 2026",
-      "datetime": "2026-11-09",
-      "detail": "ScotlandIS event"
-    },
     {
       "title": "Meet the Investors: Edinburgh",
       "url": "https://www.scotlandis.com/blog/events/meet-the-investors-edinburgh/",
@@ -18,6 +11,13 @@
     {
       "title": "Securing and Governing the Agentic Enterprise",
       "url": "https://www.scotlandis.com/blog/events/securing-and-governing-the-agentic-enterprise/",
+      "date": "11 Nov 2026",
+      "datetime": "2026-11-11",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "Pilot-UKAIFA: AI Potential",
+      "url": "https://www.scotlandis.com/blog/events/pilot-ukaifa-ai-potential/",
       "date": "11 Nov 2026",
       "datetime": "2026-11-11",
       "detail": "ScotlandIS event"
