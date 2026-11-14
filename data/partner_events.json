@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "scotlandis": [
+    {
+      "title": "Maximising Innovation Value: R\u0026D Tax Relief, Patent Box and Intellectual Property Insights",
+      "url": "https://www.scotlandis.com/blog/events/maximising-innovation-value-rd-tax-relief-patent-box-and-intellectual-property-insights/",
+      "date": "16 Nov 2026",
+      "datetime": "2026-11-16",
+      "detail": "ScotlandIS event"
+    },
     {
       "title": "CloudStack Collaboration Conference 2026",
       "url": "https://www.scotlandis.com/blog/events/cloudstack-collaboration-conference-2026/",
@@ -14,13 +21,6 @@
       "date": "18 Nov 2026",
       "datetime": "2026-11-18",
       "detail": "Edinburgh City Chambers"
-    },
-    {
-      "title": "Are You Okay, Internet? The State of the Internet in 2026",
-      "url": "https://www.scotlandis.com/blog/events/are-you-okay-internet-the-state-of-the-internet-in-2026/",
-      "date": "24 Nov 2026",
-      "datetime": "2026-11-24",
-      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
