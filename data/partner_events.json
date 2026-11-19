@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "scotlandis": [
-    {
-      "title": "CloudStack Collaboration Conference 2026",
-      "url": "https://www.scotlandis.com/blog/events/cloudstack-collaboration-conference-2026/",
-      "date": "18 Nov 2026",
-      "datetime": "2026-11-18",
-      "detail": "John McIntyre Conference Centre, Edinburgh University"
-    },
-    {
-      "title": "DOING BUSINESS IN THE USA: PRACTICAL INSIGHTS FOR SCOTTISH BUSINESSES",
-      "url": "https://www.scotlandis.com/blog/events/doing-business-in-the-usa-practical-insights-for-scottish-businesses/",
-      "date": "18 Nov 2026",
-      "datetime": "2026-11-18",
-      "detail": "Edinburgh City Chambers"
-    },
     {
       "title": "Are You Okay, Internet? The State of the Internet in 2026",
       "url": "https://www.scotlandis.com/blog/events/are-you-okay-internet-the-state-of-the-internet-in-2026/",
+      "date": "24 Nov 2026",
+      "datetime": "2026-11-24",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "Security under pressure: Understanding the threat, strengthening your defences",
+      "url": "https://www.scotlandis.com/blog/events/security-under-pressure-understanding-the-threat-strengthening-your-defences/",
+      "date": "24 Nov 2026",
+      "datetime": "2026-11-24",
+      "detail": "Gleneagles Townhouse"
+    },
+    {
+      "title": "Science Night Glasgow: Space Travel",
+      "url": "https://www.scotlandis.com/blog/events/science-night-glasgow-space-travel/",
       "date": "24 Nov 2026",
       "datetime": "2026-11-24",
       "detail": "ScotlandIS event"
