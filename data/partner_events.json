@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "scotlandis": [
-    {
-      "title": "Packed Lunch: Geovation Scotland Lunch \u0026 Learn with Glen Stocco",
-      "url": "https://www.scotlandis.com/blog/events/packed-lunch-geovation-scotland-lunch-learn-with-glen-stocco/",
-      "date": "25 Nov 2026",
-      "datetime": "2026-11-25",
-      "detail": "Meadowbank House"
-    },
-    {
-      "title": "Scottish Testing Group - Autumn Meet-up 2026",
-      "url": "https://www.scotlandis.com/blog/events/scottish-testing-group-autumn-meet-up-2026/",
-      "date": "25 Nov 2026",
-      "datetime": "2026-11-25",
-      "detail": "CodeBase - Edinburgh"
-    },
     {
       "title": "SME Business Breakfast - Fife College",
       "url": "https://www.scotlandis.com/blog/events/sme-business-breakfast-fife-college/",
       "date": "26 Nov 2026",
       "datetime": "2026-11-26",
       "detail": "Fife College"
+    },
+    {
+      "title": "From alert to answer: Teaching AI to triage like a Senior Analyst, but faster!",
+      "url": "https://www.scotlandis.com/blog/events/from-alert-to-answer-teaching-ai-to-triage-like-a-senior-analyst-but-faster/",
+      "date": "26 Nov 2026",
+      "datetime": "2026-11-26",
+      "detail": "ScotlandIS event"
+    },
+    {
+      "title": "ScotlandIS Tech Tidbits: AI and Cyber Resilience - Friend or Foe?",
+      "url": "https://www.scotlandis.com/blog/events/scotlandis-tech-tidbits-ai-and-cyber-resilience-friend-or-foe/",
+      "date": "1 Dec 2026",
+      "datetime": "2026-12-01",
+      "detail": "ScotlandIS event"
     }
   ],
   "bayes": [
